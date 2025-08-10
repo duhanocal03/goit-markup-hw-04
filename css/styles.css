@@ -117,7 +117,7 @@ footer p{
 }
 
 .contact{
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7)), url(/images/contactbg.png) ;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7)), url(./images/contactbg.png) ;
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
