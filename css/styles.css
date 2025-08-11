@@ -183,6 +183,11 @@ main .headers ul li{
     flex-basis: calc((100% - 24px) / 4);
 }
 
+.headers .item h3{
+    margin: 10px 0px;
+    padding: 0;
+}
+
 .teams-info{
     display: flex;
     justify-content: center;
