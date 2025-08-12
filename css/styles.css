@@ -160,6 +160,7 @@ main .contact{
 .headers{
     padding: 120px;
 }
+
 main .headers {
     display: flex;
     align-items:center ;
@@ -299,6 +300,38 @@ footer {
     align-items: center;
     justify-content: center;
     border: 1px solid #8E8F99;
-    border-radius: 5px;
-    gap: 8px;
+    border-radius: 4px;
+    gap: 24px;
+}
+.icon-clock,
+.icon-diagram,
+.icon-astronaut,
+.icon-antenna
+{
+    width: 64px;
+    height: 64px;
+}
+.social-icon{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.social-icon .icon-item{
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.social-icon .icon-item svg{
+    width: 16px;
+    height: 16px;
+}
+
+.icon-facebook1{
+    fill: #fff;
 }
