@@ -125,7 +125,7 @@ footer p{
     color: #FFFFFF;
     padding: 120px 0px;
     max-width: 1158px;
-    margin-left: 50px;;
+    
 }
 
 
@@ -235,7 +235,7 @@ margin-bottom: 75px;
         align-items: center;
         flex-direction: column;
         width: 1158px;
-        margin-left: 100px;
+        
 }
 
 .container .port-info{
@@ -381,4 +381,8 @@ footer {
 
 .image-box:hover .hover-box {
     transform: translateY(0);
+}
+
+.icon-item:hover{
+    background-color: #31D0AA;
 }
