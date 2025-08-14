@@ -75,6 +75,19 @@ h3 {
     padding-bottom: 4px;
 }
 
+.menu .link-1::after{
+    content: "";
+    background-color:  #404bbf;
+    color: #404BBF;
+    width: 48px;
+    height: 3px;
+    display: block;
+    margin-top: 10px;
+    
+}
+.menu .link-1 a::after{
+    color: #404BBF;
+}
 .comms a{
     text-decoration: none;
     color: #434455;
