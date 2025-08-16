@@ -6,6 +6,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 ul{
     list-style: none;
@@ -130,6 +132,10 @@ footer p{
 }
 
 .contact{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
             url("../images/contactbg.png");
     background-size: cover;
@@ -141,7 +147,6 @@ footer p{
     
 }
 
-
 header {
         padding: 24px 0;
         display: flex;
@@ -149,7 +154,6 @@ header {
         align-items: center; 
         border: 1px solid #E7E9FC;
     }
-
 
 header .menu{
     display: flex;
@@ -161,19 +165,16 @@ header .comms {
     gap: 40px;
 }
 
-main .contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .contact h1 {
     max-width: 500px;   
 }
 .headers{
     padding: 120px;
 }
-
+main{
+    width:1158px ;
+    padding: 0;
+}
 main .headers {
     display: flex;
     align-items:center ;
@@ -216,7 +217,6 @@ main .headers ul li{
     background-color: #F4F4FD;
     height: 732px;
     width: 1158px;
-    margin-left: 75px;
 }
 
 .contain h2 {
